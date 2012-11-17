@@ -1,12 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
-gem "mysql2", "~> 0.3.11"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
-gem 'sqlite3'
 
 gem 'json'
 gem 'devise'
@@ -29,7 +26,7 @@ gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
-
+x
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
