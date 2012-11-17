@@ -9,6 +9,7 @@ gem "mysql2", "~> 0.3.11"
 gem 'sqlite3'
 
 gem 'json'
+gem 'devise'
 
 # Gems used only for assets and not required
 # in production environments by default.
