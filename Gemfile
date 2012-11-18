@@ -10,6 +10,8 @@ gem 'devise'
 gem 'pg'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
+gem 'fastercsv'
+gem 'rails_admin'
 
 # Gems used only for assets and not required
 # in production environments by default.

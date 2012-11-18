@@ -1,3 +1,3 @@
 class Retailer < ActiveRecord::Base
-  attr_accessible :description, :name, website_url:
+  attr_accessible :description, :name, :website_url
 end
