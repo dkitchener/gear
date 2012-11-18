@@ -1,15 +1,11 @@
 class CreateCategories < ActiveRecord::Migration
-    def up
-      create_table :categories do |t|
-        t.string :name
-        t.text :description
-        t.integer :parent_id
+    def change
+    	create_table :categories do |t|
+        	t.string :name
+	        t.text :description
+    	    t.integer :parent_id
 
-        t.timestamps
-      end
+        	t.timestamps
+		end
     end
-
-	def down
-		drop_table :categories
-	end
 end

@@ -1,5 +1,5 @@
 class CreateRetailers < ActiveRecord::Migration
-	def up 
+	def change
     	create_table :retailers do |t|
         	t.string :name
         	t.string :website_url
@@ -8,9 +8,4 @@ class CreateRetailers < ActiveRecord::Migration
     	    t.timestamps
       	end
     end
-	
-	def down
-		drop_table :retailers
-	end
-
 end
