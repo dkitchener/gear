@@ -1,0 +1,9 @@
+<div class="pagination pagination-centered pagination-small">
+  <ul>
+    <li <% if @search.results.first_page? %> class="disabled" <% end %> ><a href="<% if @search.results.previous_page %>?page=<%= @search.results.previous_page %><% else %>#<% end %>" >Prev</a></li>
+	<% (1..@search.results.total_pages).each do |i| %>
+    	<li><a href="?page=<%= i %>"><%= i %></a></li>
+	<% end %>
+    <li <% if @search.results.last_page? %> class="disabled" <% end %> ><a href="<% if @search.results.next_page %>?page=<%= @search.results.next_page %><% else %>#<% end %>" >Next</a></li>
+  </ul>
+</div>
