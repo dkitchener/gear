@@ -4,7 +4,7 @@ class SearchController < ApplicationController
 	search_term = params.has_key?(:term) ? params[:term] : ''
 	@search= Product.search do
 		fulltext (search_term)
-		paginate :page => page, :per_page => 3
+		paginate :page => page, :per_page => 4
 	end
   end
 end
