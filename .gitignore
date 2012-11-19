@@ -17,3 +17,6 @@
 
 # Ignore vim created files
 *.swp
+# Ignore solr related files
+/solr/data
+/solr/pids
